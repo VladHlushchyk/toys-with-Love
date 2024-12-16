@@ -12,12 +12,12 @@ function handleMainVisibility() {
 	const bounding = mainElement.getBoundingClientRect();
 
 	// Если блок main пропал из зоны видимости
-	if (bounding.bottom < 11 && !isNav2Active) {
+	if (bounding.bottom < 6 && !isNav2Active) {
 			nav2Element.classList.add('active'); // Добавляем класс для выезда
 			isNav2Active = true; // Обновляем флаг
 	} 
 	// Если блок main снова появился
-	else if (bounding.bottom >= 0 && isNav2Active) {
+	else if (bounding.bottom >= 6 && isNav2Active) {
 			nav2Element.classList.remove('active'); // Убираем класс
 			isNav2Active = false; // Обновляем флаг
 	}
