@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+  .production-info h3 {
+    font-size: 1rem;
+  }  
+  .burger2-button{
+    margin-top: -20px;
+  }
+  .burger-button-container{
+    display: block;
+  }
+  .nav{
+    justify-content: right;
+  }
+  .nav-list{
+    display: none;
+  }
+  .nav2{
+    width: auto;
+    right: 15px;
+    justify-content: right;
+  }
+  .nav2-list{
+    display: none;
+  }
+}
