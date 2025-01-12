@@ -1,0 +1,16 @@
+@media (max-width: 1080px) {
+  .float-menu-production-cards-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(0, 1fr);  
+  }
+  .full-production-float-menu-container {
+    width: 90vw;
+    height: 90vh;
+    top: 5vh;
+    left: 5vw;
+    /* border-radius: 0; */
+  }
+  .float-menu-add-button {
+    top: 75vh;
+  }
+}

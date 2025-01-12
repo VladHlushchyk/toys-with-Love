@@ -2,6 +2,9 @@
   .production-info h3 {
     font-size: 1rem;
   }  
+  .production-container {
+    scroll-margin-top: 0px;
+  }
   .burger2-button{
     margin-top: -20px;
   }
@@ -22,4 +25,32 @@
   .nav2-list{
     display: none;
   }
+
+
+  .float-menu-production-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);  
+  }
+  .full-production-float-menu-container {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+  }
+  .float-menu-add-button {
+    top: 85vh;
+  }
+  .float-menu-production-card {
+    width: 120px;
+    height: 210px;
+  }
+  .float-menu-production-card-info h3 {
+    font-size: 13px;
+    margin-bottom: 6.5px;
+  }
+  .float-menu-production-card-info ul {
+    font-size: 7.5px;
+    padding-left: 6.5px;
+  }  
 }

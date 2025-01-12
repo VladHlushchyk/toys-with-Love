@@ -1,4 +1,3 @@
-
 function navMenuGoDown (){
 // Выбираем элементы
 const mainElement = document.querySelector('header.header');
@@ -69,7 +68,22 @@ function Burger2OnClick() {
     });
   });
 }
+function floatProductionOnClick() {
+  const buttonMain = document.querySelectorAll('.btn-buy')
+  const floatProductionMenu = document.querySelector('.full-production-float-menu-background')
+  const buttonClose = document.querySelector('.float-menu-close-btn')
 
+    buttonMain.forEach(buttonMain => {
+    buttonMain.addEventListener('click', () => {
+      floatProductionMenu.classList.add('active')
+    })
+    buttonClose.addEventListener('click',() => {
+      floatProductionMenu.classList.remove('active')
+    })
+  })
+}
+
+floatProductionOnClick()
 navMenuGoDown()
 BurgerOnClick()
 Burger2OnClick()
